@@ -1,7 +1,7 @@
 /*
 
-Crear una función que convierta las palabras delimitadas por guiones ó guiones bajos en camellCase. 
-La primera palabra dentro de la salida debe estar en mayúscula solo si la palabra original fue en mayúscula. 
+Crear una función que convierta las palabras delimitadas por guiones medios ó guiones bajos en el estilo de escritura camelCase.
+OBS: El retorno de la primera palabra debe estar en mayúscula solo si la palabra original fue ingresada en mayúscula.
   
 .Ejemplos:
    
@@ -9,6 +9,8 @@ La primera palabra dentro de la salida debe estar en mayúscula solo si la palab
    > toCamelCase("The_Stealth_Warrior");  // return "TheStealthWarrior"
 
 */
+
+// Solución:
 
 const toCamelCase = (str) => {
    let result = '';
