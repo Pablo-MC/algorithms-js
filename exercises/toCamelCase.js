@@ -24,3 +24,4 @@ const toCamelCase = (str) => {
    }
    return result;
 }
+
