@@ -8,6 +8,14 @@ __OBS__: El retorno de la primera palabra debe estar en mayúscula solo si la pa
   
 ‣ Ejemplos: 
 ~~~  
-‣ toCamelCase("the-stealth-warrior");  // return theStealthWarrior
-‣ toCamelCase("The_Stealth_Warrior");  // return TheStealthWarrior
+‣ toCamelCase('the-stealth-warrior');  // return theStealthWarrior
+‣ toCamelCase('The_Stealth_Warrior');  // return TheStealthWarrior
+~~~
+
+#### :small_orange_diamond: Ejercicio # 2: _digitize_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/digitize.js)
+‣ Crear una función que reciba un número aleatorio no negativo y devuelva los dígitos de este número dentro de una matriz en orden inverso.
+
+‣ Ejemplo:
+~~~
+‣ digitize(35231);  // return [1,3,2,5,3]
 ~~~
