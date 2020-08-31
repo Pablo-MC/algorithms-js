@@ -25,7 +25,7 @@ __OBS__: El retorno de la primera palabra debe estar en mayúscula solo si la pa
 #
 
 #### :small_orange_diamond: Ejercicio # 3: _findSmallestInt_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/findSmallestInt.js)
-‣ Crear una función que reciba una matriz de números enteros y devuelva el número más pequeño.
+‣ Crear una función que reciba una matriz de números enteros y devuelva el número más pequeño.   
 __OBS__: La matriz ingresada no debe estar vacía.
 
 ‣ Ejemplos:
