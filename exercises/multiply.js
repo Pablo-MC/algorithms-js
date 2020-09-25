@@ -4,8 +4,8 @@ Crear una función que multiplique dos números sin utilizar el signo de multipl
 
 .Ejemplos:
 
-   > multiply(3,12);  // return 
-   > multiply(-9,6);  // return 
+   > multiply(3, 12);  // return 36
+   > multiply(-9, 6);  // return -54
 
 */
 
@@ -20,4 +20,3 @@ const multiply = (a, b) => {
 
    return result;
 }
-
