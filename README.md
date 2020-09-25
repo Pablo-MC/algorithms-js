@@ -33,3 +33,17 @@ __OBS__: La matriz ingresada no debe estar vacía.
 ‣ findSmallestInt([34, -345, -1, 100]);  // return -345
 ‣ findSmallestInt([34, 15, 88, 2]);      // return 2
 ~~~
+
+#
+
+#### :small_orange_diamond: Ejercicio # 4: _countPositivesSumNegatives_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/countPositivesSumNegatives.js)
+‣ Crear una función que reciba una matriz de números enteros y devuelva una matriz donde el primer elemento es el recuento de números positivos y el segundo elemento es la suma de números negativos.   
+__OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vacía. 
+  
+‣ Ejemplos: 
+~~~  
+‣ countPositivesSumNegatives([12, 7, -15, -1, -23, 34, -44, 1, -19]);  // return [4, -102]
+‣ countPositivesSumNegatives([]);                                      // return []
+~~~
+
+#
