@@ -1,21 +1,21 @@
 /*
 
 Crear una función que imprima los números del 1 al 100 con la condición de que:
-	-> si el número a impirmir es divisible por 3, entonces imprima: 'Fizz',
-	-> si el número a impirmir es divisible por 5, entonces imprima: 'Buzz',
-	-> si el número a imprimir es divisible por 3 y por 5, entonces imprima: 'FizzBuzz'
+	-> si el número a impirmir es divisible por 3, entonces imprima la palabra: 'Fizz',
+	-> si el número a impirmir es divisible por 5, entonces imprima la palabra: 'Buzz',
+	-> si el número a imprimir es divisible por 3 y por 5, entonces imprima la palabra: 'FizzBuzz'
 
 */   
 
 // Solución:
 
 const fizzBuzz = () => {
-   for (let i = 1; i <= 100; i++) {
-      let result = '';
+   for (let nro = 1; nro <= 100; nro++) {
+      let word = '';
 
-      if (i % 3 === 0) result += 'Fizz';
-      if (i % 5 === 0) result += 'Buzz';
+      if (nro % 3 === 0) word += 'Fizz';
+      if (nro % 5 === 0) word += 'Buzz';
 
-      console.log(result || i);
+      console.log(word || nro);
    }
 }
