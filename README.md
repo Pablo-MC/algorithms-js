@@ -47,3 +47,14 @@ __OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vací
 ~~~
 
 #
+
+#### :small_orange_diamond: Ejercicio # 5: _multiply_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/multiply.js)
+‣ Crear una función que multiplique dos números __sin__ utilizar el signo de multiplicación.  
+  
+‣ Ejemplos: 
+~~~  
+‣ multiply(3, 12);  // return 
+‣ multiply(-9, 6);  // return 
+~~~
+
+#
