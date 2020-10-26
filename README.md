@@ -61,9 +61,9 @@ __OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vací
 
 #### :small_orange_diamond: Ejercicio # 6: _fizzBuzz_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/fizzBuzz.js)
 ‣ Crear una función que imprima los números del 1 al 100 con la condición de que:   
-- si el número a impirmir es divisible por 3, entonces imprima: 'Fizz',   
-- si el número a impirmir es divisible por 5, entonces imprima: 'Buzz',   
-- si el número a imprimir es divisible por 3 y por 5, entonces imprima: 'FizzBuzz'
+- si el número a impirmir es divisible por 3, entonces imprima la palabra: 'Fizz',   
+- si el número a impirmir es divisible por 5, entonces imprima la palabra: 'Buzz',   
+- si el número a imprimir es divisible por 3 y por 5, entonces imprima la palabra: 'FizzBuzz'
 
 #
 
