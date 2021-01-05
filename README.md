@@ -3,7 +3,8 @@
 ### _Ejercicios de algoritmos propuestos y resueltos utilizando JavaScript_    
 
 #### :small_orange_diamond: Ejercicio # 1: _toCamelCase_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/toCamelCase.js)
-‣ Crear una función que convierta las palabras delimitadas por guiones medios ó guiones bajos en el estilo de escritura **camelCase**.     
+‣ Crear una función que convierta las palabras delimitadas por guiones medios ó guiones bajos en el estilo de escritura **camelCase**.    
+
 __OBS__: El retorno de la primera palabra debe estar en mayúscula solo si la palabra original fue ingresada en mayúscula. 
   
 ‣ Ejemplos: 
@@ -25,7 +26,8 @@ __OBS__: El retorno de la primera palabra debe estar en mayúscula solo si la pa
 #
 
 #### :small_orange_diamond: Ejercicio # 3: _findSmallestInt_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/findSmallestInt.js)
-‣ Crear una función que reciba una matriz de números enteros y devuelva el número más pequeño.   
+‣ Crear una función que reciba una matriz de números enteros y devuelva el número más pequeño.           
+
 __OBS__: La matriz ingresada no debe estar vacía.
 
 ‣ Ejemplos:
@@ -38,6 +40,7 @@ __OBS__: La matriz ingresada no debe estar vacía.
 
 #### :small_orange_diamond: Ejercicio # 4: _countPositivesSumNegatives_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/countPositivesSumNegatives.js)
 ‣ Crear una función que reciba una matriz de números enteros y devuelva una matriz donde el primer elemento es el recuento de números positivos y el segundo elemento es la suma de números negativos.   
+
 __OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vacía. 
   
 ‣ Ejemplos: 
@@ -67,11 +70,17 @@ __OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vací
 
 #
 
+#### :small_orange_diamond: Ejercicio # 7: _isSquare_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/isSquare.js)
+‣ Crear una función que reciba un número entero y determine si es un número cuadrado perfecto.
 
+__OBS__: Un número cuadrado perfecto es un número entero que es el resultado del producto de algún número entero consigo mismo.
 
+‣ Ejemplos:
+~~~ 
+‣ isSquare(25);  // return true  -> 5 * 5 = 25
+‣ isSquare(3);   // return false -> No existe ningún número entero que multiplicado a si mismo de como resultado 3. 
+‣ isSquare(1);   // return true  -> 1 * 1 = 1
+~~~ 
 
-
-
-
-
+#
 
