@@ -2,7 +2,8 @@
 
 /*
 
-Crear una función quede vuelva verdadero si el primer argumento termina con el segundo argumento. 
+Crear una función que devuelva verdadero si el primer argumento termina con el segundo argumento. 
+
 OBS: Ambos argumentos deben ser valores de tipo string.
 
 .Ejemplos:
