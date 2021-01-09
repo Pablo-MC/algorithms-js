@@ -84,3 +84,15 @@ __OBS__: Un número cuadrado perfecto es un número entero que es el resultado d
 
 #
 
+#### :small_orange_diamond: Ejercicio # 8: _stringEndsWith_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/stringEndsWith.js)
+‣ Crear una función que devuelva verdadero si el primer argumento termina con el segundo argumento.
+
+__OBS__: Ambos argumentos deben ser valores de tipo string.
+
+‣ Ejemplos:
+~~~ 
+‣ stringEndsWith('abc', 'bc');  // return true
+‣ stringEndsWith('abc', 'd');  // return false
+~~~ 
+
+#
