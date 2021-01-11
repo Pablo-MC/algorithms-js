@@ -1,4 +1,4 @@
-# Algoritmos JavaScript
+# Algoritmos JavaScript ES6+
 
 ### _Ejercicios de algoritmos propuestos y resueltos utilizando JavaScript_    
 
@@ -56,8 +56,8 @@ __OBS__: Si la matriz de entrada está vacía entonces devuelve una matriz vací
   
 ‣ Ejemplos: 
 ~~~  
-‣ multiply(3, 12);  // return 
-‣ multiply(-9, 6);  // return 
+‣ multiply(3, 12);  // return 36
+‣ multiply(-9, 6);  // return -54
 ~~~
 
 #
@@ -93,6 +93,20 @@ __OBS__: Ambos argumentos deben ser valores de tipo string.
 ~~~ 
 ‣ stringEndsWith('abc', 'bc');  // return true
 ‣ stringEndsWith('abc', 'd');  // return false
+~~~ 
+
+#
+
+#### :small_orange_diamond: Ejercicio # 9: _sumTwoSmallestNumbers_  [(Solución)](https://github.com/Pablo-MC/algorithms-js/blob/master/exercises/sumTwoSmallestNumbers.js)
+‣ Crear una función que dado arreglo de números enteros devuelva la suma de los dos números más bajos.    
+
+__OBS__: El arreglo debe tener un mínimo de 4 números enteros.    
+
+‣ Ejemplos:
+~~~ 
+‣ sumTwoSmallestNumbers([5, 8, 12, 19, 22, 1, 32]);  // return 6
+‣ sumTwoSmallestNumbers([23, 71, 33, 82, 1]);        // return 24
+‣ sumTwoSmallestNumbers([-5, 8, 1, 19]);             // return -4
 ~~~ 
 
 #
